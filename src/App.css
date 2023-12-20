@@ -15,12 +15,26 @@ h1, h2 {
   color: yellow;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+h3 {
+  margin-top: 200px;
+  color: #fff;
+  text-shadow: 2px 0 0 red, 0 -2px 0 red, 0 2px 0 red, -2px 0 0 red;
+  font-size: 0px;
+  transition: font-size 1s ease;
+}
+.change{
+  font-size: 40px;
+}
 button {
   background-color: yellow;
   color: #fff;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   padding: 10px;
   font-size: 20px;
-  margin-top: 300px;
+  letter-spacing: 1.5px;
+  margin-top: 200px;
   border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(206, 206, 22);
 }
