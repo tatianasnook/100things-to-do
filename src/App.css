@@ -20,10 +20,10 @@ h3 {
   color: #fff;
   text-shadow: 2px 0 0 red, 0 -2px 0 red, 0 2px 0 red, -2px 0 0 red;
   font-size: 0px;
-  transition: font-size 1s ease;
 }
 .change{
   font-size: 40px;
+  transition: font-size 1s ease;
 }
 button {
   background-color: yellow;
