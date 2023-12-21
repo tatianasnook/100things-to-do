@@ -12,21 +12,12 @@ function App() {
   },  [])
 
   const getActivity = async () => {
-    text.current.classList.remove('change');
-
-    try {
+    text.current.classList.remove('change')
       const response = await fetch('http://www.boredapi.com/api/activity/');
-      if (!response.ok) {
-        throw new Error('Failed to fetch activity');
-      }
-
       const data = await response.json();
       setActivity(data.activity);
-      text.current.classList.add('change');
-    } catch (error) {
-      console.error('Error fetching activity:', error.message);
-    }
-  };
+      text.current.classList.add('change')
+  }
 
   return (
     <div className="App">
