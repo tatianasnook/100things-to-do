@@ -19,7 +19,7 @@ Upon opening the app, users can see first suggested activity. If she/he wants to
 ## Setup/Installation Requirements
 1.  Before you begin, make sure you have the following prerequisites: node and npm installed on your computer.
 
-2. Clone or download this repository to your local machine. Run in Terminal: git clone https://github.com/your-username/are-you-bored.git 
+2. Clone or download this repository to your local machine. Run in Terminal: git clone https://github.com/your-username/100things-to-do.git 
 
 3. Navigate to the project directory. Run: cd are-you-bored
 
